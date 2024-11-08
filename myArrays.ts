@@ -1,8 +1,8 @@
-const userNames: string[] = []
+const userName: string[] = []
 // const userIds: number[] = []
-const userIds: Array<number> = []
+const userId: Array<number> = []
 
-const colorCodes: string[][] = [
+const colors: string[][] = [
     ['255', '255', '255'],
     []
 ]
