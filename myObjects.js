@@ -1,11 +1,20 @@
 "use strict";
+// const user = {
+//     name: 'Abu Naim',
+//     email: 'naim@mail.com',
+//     isActive: false
+// }
 Object.defineProperty(exports, "__esModule", { value: true });
-var user = {
-    name: 'Abu Naim',
-    email: 'naim@mail.com',
-    isActive: false
+// const createUser = (user: User): User => {
+//     return { name: user.name, email: user.email, isActive: user.isActive }
+// }
+// createUser({ name: 'naim', email: 'n@n.com', isActive: true });
+// readonly and optional ?
+var newUser = {
+    _id: '1345',
+    name: 'naim',
+    email: 'n@n.com',
+    isActive: true
 };
-var createUser = function (_a) {
-    var string = _a.name, boolean = _a.isActive;
-};
-createUser({ name: 'naim', isActive: true });
+newUser.email = 'naim@mail.com';
+newUser._id = '45234';
