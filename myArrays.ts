@@ -7,5 +7,5 @@ const colors: string[][] = [
     []
 ]
 
-userNames.push('naim')
-userIds.push(5)
+userName.push('naim')
+userId.push(5)
